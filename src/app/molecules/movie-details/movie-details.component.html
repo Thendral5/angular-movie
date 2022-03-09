@@ -1,0 +1,8 @@
+<div class="movie-details text-center">
+      <app-poster [poster]="selMovie?.image"></app-poster>
+      <div class="details">
+        <h5 class="card-title">{{selMovie?.Title}}</h5>
+        <app-item-title [text]="selMovie?.cast"></app-item-title>
+        <app-item-title [text]="selMovie?.director"></app-item-title>
+      </div>
+</div>

@@ -1,0 +1,3 @@
+<ul className="list-group">
+    <app-item-list *ngFor="let mov of movies" [movie]="mov" [selected] = "selMovie?.id === mov?.id"></app-item-list>
+</ul>

@@ -2,17 +2,24 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
+    "skipLibCheck": true,
     "types": [
       "jasmine",
       "node"
     ]
   },
+  "files.exclude": {
+        "**/node_modules": true
+    },
   "files": [
     "src/test.ts",
     "src/polyfills.ts"
   ],
   "include": [
-    "src/**/*.spec.ts",
-    "src/**/*.d.ts"
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
   ]
 }

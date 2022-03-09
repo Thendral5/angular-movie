@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.movie-details{
+  padding: 10px;
+}
+.details{
+  text-align: center;
+font-size: 16px;
+}
+
+app-poster
+{
+  width: 80%;
+text-align: center;
+}

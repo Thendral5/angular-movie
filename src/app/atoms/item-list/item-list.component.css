@@ -1,0 +1,7 @@
+.selectedmovie {
+  background: gray;
+}
+li.list-group-item {
+    padding: 10px;
+    cursor: pointer;
+}
